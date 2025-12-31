@@ -1,0 +1,3 @@
+- No single line comments in the code, only PHP or JS docs where needed.
+- all components should be properly typed and fully support dark mode as described in the design system of the project
+- Alyways try try to keep types central. We have an inde should have an index file that contains base types, then individual type files that define a specific group of types like say customers or shops, etc. Alyways try use as little types as possible in the main files.
